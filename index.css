@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+/* font-family: 'Chelsea Market', cursive; */
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */ 
+
+/*-------------CSS RESET & IMPORTS ABOVE------------------------*/
+/* * {
+    border: 1px solid black;
+} */
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 100%;
+}
+
+
+nav {
+    /* border: 2px solid green; */
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.headerNav a {
+    border-radius: 12%;
+    padding: .8% 2%;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin: 2% 10%;
+    color: white;
+    font-weight: bolder;
+}
+
+main {
+    margin: 2%;
+}
+
+h1 {
+    font-size: 3.8rem;
+    font-family: 'Chelsea Market', cursive;
+    margin: -1%;
+}
+
+.headerText {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10%;
+}
+
+section p {
+    background-color: #DDB9A3;
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+    padding: 1%;
+    font-weight: bolder;
+    width: 100%
+}
+
+.headerText h2 {
+    font-size: 1.3rem;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+.container p, .container2 p {
+    color: black;
+    font-weight:550;
+    text-align: center;
+    font-size: .8rem
+}
+
+.footerNav a {
+    border-radius: 12%;
+    padding: .8% 2%;
+    width: 50;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin: 1% 10%;
+    color: white;
+    font-weight: bolder;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* ------------Nav Bar Coloring--------*/
+.nav1 {
+    background-color: #FF764E;
+    color: white;
+}
+
+.nav2 {
+    background-color: #5ED3EB;
+    color: white;
+}
+
+.nav3 {
+    background-color:#FFCD69;
+    color: white;
+}
+
+/*--------------IMAGE RESHAPING--------------*/
+
+section img {
+    border-radius: 50%;
+    width: 20%;
+    display: inline-block;
+}
+
+.container img {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
+.container2 img {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
+footer img {
+    height: 150px;
+    width: 100%;
+    
+}
+
